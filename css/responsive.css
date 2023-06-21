@@ -1,0 +1,87 @@
+@media(max-width:575.98px){
+.navbar-nav {
+    text-align: center;
+    background-color:salmon;
+}
+.carousel-caption{
+    bottom: 135px;
+}
+.carousel-caption h5{
+    font-size: 27px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.carousel-caption a{
+   padding: 10px 15px;
+ 
+}
+.card-body p{
+width:100%;
+font-size: 8px;
+}
+
+
+}
+/* ========extra small end===== */
+/* ==========small start==== */
+@media(min-width: 576px)and(max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+       
+    }
+    .carousel-caption{
+        bottom: 125px;
+      
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+        text-align: center;
+    }
+    .carousel-caption a{
+       padding: 10px 15px;
+     
+    }
+    .card-body p{
+        width:100%;
+        font-size: 14px;
+        }
+    .card-body h5{
+     font-size:16px;
+         }
+    .btn btn-primary{
+       display: none;
+    }
+    carousel-caption p{
+        width:100%;
+        line-height: 1.6;
+        font-size: 12px;
+       
+      } 
+ }
+/* ========small end======= */
+/* =====md part start=== */
+
+@media(min-width:768px)and(max-width: 991.98px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption p{
+       width:100%;
+     } 
+
+   .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+        text-align: center;
+    }
+    .carousel-caption a{
+       padding: 10px 15px;
+    } 
+    
+
+    
+ 
+}
